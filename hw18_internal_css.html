@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Internal CSS</title>
+
+    <style>
+        body{
+            background-color:bisque;
+        }
+    
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .section {
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            min-height: 200px;
+            min-width: 25%;
+        }
+
+        #i1{
+            text-align: center;
+            color:brown
+        }
+        
+        .section1{
+            background-color: blueviolet;
+            color:aliceblue;
+        }
+
+        .section2{
+            background-color:lightsalmon;
+            color:black;
+        }
+
+        .section3{
+            background-color:lightgrey;
+            color:black;
+        }
+
+        .section4{
+            background-color:pink;
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="i1">Internal CSS</h1>
+    <hr><br>
+    <div class="container">
+
+        <div class="section section1">
+            <h1>Internal CSS</h1>
+            <p>
+                Internal CSS is a method of applying styles to an HTML webpage
+                using the style tag inside the head section of the document.
+            </p>
+        </div>
+
+        <div class="section section2">
+            <h1>Where is Internal CSS Written?</h1>
+            <p>
+                Internal CSS is written inside the head tag using the style element.
+                It is useful when we want to apply CSS styles to a single HTML page.
+            </p>
+        </div>
+
+        <div class="section section3">
+            <h1>Types of CSS</h1>
+            <p>
+                There are three main types of CSS: Inline CSS, Internal CSS, and
+                External CSS. Each method is used to style HTML elements in a
+                different way.
+            </p>
+        </div>
+
+        <div class="section section4">
+            <h1>Benefits of CSS</h1>
+            <p>
+                CSS helps us make webpages attractive and easy to understand.
+                We can change colors, fonts, spacing, borders, sizes, and layouts
+                using CSS.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
